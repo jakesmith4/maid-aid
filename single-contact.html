@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maid Aid || Contact</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Nav Button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- End Of Nav Button -->
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="cleans.html" class="nav-link">cleans</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="contact.html" class="nav-link">contact</a></li>
+      </ul>
+    </nav>
+    <!-- End Of Navbar -->
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="section-center clearfix">
+        <!-- Contact Info -->
+        <article class="contact-info">
+          <!-- 1st Contact Item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-location-arrow"></i>
+              </span>
+              our address
+            </h4>
+            <h4 class="contact-text">
+              9176, County Road 626, <br />
+              Blue Ridge Tx, 75424
+            </h4>
+          </div>
+          <!-- End Of 1st Contact Item -->
+
+          <!-- 2nd Contact Item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              our email
+            </h4>
+            <h4 class="contact-text">yourmaidaid@gmail.com</h4>
+          </div>
+          <!-- End Of 2nd Contact Item -->
+
+          <!-- 3rd Contact Item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </span>
+              our phone number
+            </h4>
+            <h4 class="contact-text">(972) 838-7513</h4>
+          </div>
+          <!-- End Of 3rd Contact Item -->
+        </article>
+
+        <!-- Contact Form -->
+        <article class="contact-form">
+          <h3>request callback</h3>
+          <form action="https://formspree.io/f/mbjpvvbl" method="POST">
+            <div class="form-group">
+              <!-- Inputs -->
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter Name"
+                class="form-control"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-control"
+                required
+              />
+              <input
+                type="number"
+                id="number"
+                name="number"
+                placeholder="Enter Phone Number"
+                class="form-control"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                id="message"
+                rows="5"
+                class="form-control"
+              ></textarea>
+              <input
+                type="number"
+                id="square-foot"
+                name="square-foot"
+                placeholder="Enter Your Square Footage"
+                min="500"
+                max="6000"
+                step="1"
+                class="form-control"
+                required
+              />
+            </div>
+            <!-- Button -->
+            <button type="submit" class="submit-btn btn">submit here</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- End Of Contact Section -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <!-- 1st Social Icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- End Of 1st Social Icon -->
+
+          <!-- 2nd Social Icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- End Of 2nd Social Icon -->
+
+          <!-- 3rd Social Icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- End Of 3rd Social Icon -->
+        </div>
+        <h4 class="footer-text">
+          &copy; <span id="date"></span>
+          <span class="company">maid aid</span>
+          all rights reserved
+        </h4>
+      </div>
+    </footer>
+    <!-- End Of Footer -->
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
