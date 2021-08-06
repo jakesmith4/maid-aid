@@ -335,7 +335,7 @@ Header
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/main-bcg.jpg") no-repeat center/cover fixed;
+    url("../img/main-bcg-min.jpg") no-repeat center/cover fixed;
   position: relative;
   /* Animation */
   overflow-x: hidden;
@@ -851,7 +851,7 @@ Cleans Section
 .cleans-header {
   min-height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/cleans2.jpg") no-repeat center/cover fixed;
+    url("../img/cleans2-min.jpg") no-repeat center/cover fixed;
   position: relative;
   /* Animation */
   overflow-x: hidden;
@@ -985,7 +985,7 @@ About Page
 .about-header {
   min-height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/about-img.jpg") no-repeat center/cover fixed;
+    url("../img/about-img-min.jpg") no-repeat center/cover fixed;
   position: relative;
   /* Animation */
   overflow-x: hidden;
@@ -1033,7 +1033,7 @@ Contact Us
 .contact-us {
   min-height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/contact-2.jpg") no-repeat center/cover fixed;
+    url("../img/contact-2-min.jpg") no-repeat center/cover fixed;
   position: relative;
   /* Animation */
   overflow-x: hidden;
