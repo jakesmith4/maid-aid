@@ -36,6 +36,10 @@ Global Styles
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--ff-primary);
   background: var(--clr-white);
@@ -398,6 +402,7 @@ Skills
   padding: 2.5rem 0;
   text-align: center;
   transition: var(--transition);
+  height: 575px;
 }
 
 .skill-icon {
@@ -413,8 +418,9 @@ Skills
   max-width: 17rem;
   margin: 0 auto;
   min-height: 16.5rem;
-
   transition: var(--transition);
+  letter-spacing: 2px;
+  padding: 0 1rem;
 }
 
 .skill:hover {
@@ -436,15 +442,18 @@ Skills
     width: 50%;
     float: left;
   }
+  .skill > div {
+    margin-right: 2rem;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .skill {
     width: 33.33%;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1170px) {
   .skill {
     width: 25%;
   }
@@ -497,6 +506,7 @@ About Section
 .about-text {
   max-width: 26rem;
   color: var(--clr-grey-5);
+  letter-spacing: 2px;
 }
 
 .about-btn:hover {
@@ -546,6 +556,7 @@ Products Section
 
 .product-text {
   max-width: 26rem;
+  letter-spacing: 2px;
 }
 
 .product {
@@ -565,6 +576,7 @@ Products Section
 
 .product-img-text {
   text-align: center;
+  letter-spacing: 2px;
 }
 
 @media screen and (min-width: 800px) {
@@ -644,6 +656,7 @@ Services Section
 .service-text {
   max-width: 20rem;
   margin: 0 auto;
+  letter-spacing: 2px;
 }
 
 .service-btn {
@@ -672,6 +685,7 @@ Services Section
 @media screen and (min-width: 992px) {
   .service-card {
     width: calc(33.333% - 2rem);
+    height: 586px;
   }
 }
 
@@ -933,6 +947,8 @@ Deep Section
 .deep-icon {
   color: var(--clr-primary);
   font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .deep-list {
@@ -1010,6 +1026,7 @@ About Page
   max-width: 26rem;
   color: var(--clr-grey-5);
   margin-left: 2rem;
+  letter-spacing: 2px;
 }
 
 @media screen and (min-width: 676px) {
