@@ -417,7 +417,8 @@ Skills
   padding: 2.5rem 0;
   text-align: center;
   transition: var(--transition);
-  height: 575px;
+  /* height: 575px; */
+  /* height: 692px; */
 }
 
 .skill-icon {
@@ -439,7 +440,6 @@ Skills
 }
 
 .skill:hover {
-  /* background: var(--clr-white); */
   background: var(--clr-secondary);
   box-shadow: 0 3.4px var(--clr-primary);
 }
@@ -456,6 +456,7 @@ Skills
   .skill {
     width: 50%;
     float: left;
+    height: 692px;
   }
   .skill > div {
     margin-right: 2rem;
