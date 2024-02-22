@@ -782,7 +782,13 @@ Contact Section
   margin-bottom: 1.25rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
-  text-transform: uppercase;
+}
+
+.form-control-name {
+  text-transform: capitalize;
+}
+
+.form-control-number {
   letter-spacing: var(--spacing);
 }
 
