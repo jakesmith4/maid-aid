@@ -3,7 +3,7 @@
 Fonts
 =============
 */
-@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel');
 
 /*
 =============
@@ -18,8 +18,8 @@ Variables
   --clr-grey-5: #617d98;
   --clr-grey-10: #f1f5f8;
   --clr-white: #fff;
-  --ff-primary: "Catamaran", sans-serif;
-  --ff-secondary: "Grand Hotel", cursive;
+  --ff-primary: 'Catamaran', sans-serif;
+  --ff-secondary: 'Grand Hotel', cursive;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -144,7 +144,7 @@ p {
 
 .clearfix::before,
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
@@ -339,7 +339,7 @@ Header
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/main-bcg-min.jpg") no-repeat center/cover fixed;
+    url('../img/main-bcg-min.jpg') no-repeat center/cover fixed;
   position: relative;
   /* Animation */
   overflow-x: hidden;
@@ -368,8 +368,25 @@ Header
   margin-top: 1.25rem;
   margin-bottom: 2rem;
   /* Animation */
+  /* transition: var(--transition);
+  animation: slideFromRight 2.5s ease-in-out; */
+}
+
+.banner-subheading {
   transition: var(--transition);
   animation: slideFromRight 2.5s ease-in-out;
+}
+
+.banner-logo {
+  width: 100%;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid var(--clr-primary);
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2rem;
 }
 
 .banner-btn {
@@ -865,7 +882,7 @@ Cleans Section
 .cleans-header {
   min-height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/cleans2-min.jpg") no-repeat center/cover fixed;
+    url('../img/cleans2-min.jpg') no-repeat center/cover fixed;
   position: relative;
   /* Animation */
   overflow-x: hidden;
@@ -1001,7 +1018,7 @@ About Page
 .about-header {
   min-height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/about-img-min.jpg") no-repeat center/cover fixed;
+    url('../img/about-img-min.jpg') no-repeat center/cover fixed;
   position: relative;
   /* Animation */
   overflow-x: hidden;
@@ -1050,7 +1067,7 @@ Contact Us
 .contact-us {
   min-height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/contact-2-min.jpg") no-repeat center/cover fixed;
+    url('../img/contact-2-min.jpg') no-repeat center/cover fixed;
   position: relative;
   /* Animation */
   overflow-x: hidden;
