@@ -362,19 +362,17 @@ Header
   animation: slideFromLeft 2.5s ease-in-out;
 }
 
+.banner-subheading {
+  /* Animation */
+  transition: var(--transition);
+  animation: slideFromRight 2.5s ease-in-out;
+}
+
 .banner h2 {
   text-transform: uppercase;
   color: var(--clr-white);
   margin-top: 1.25rem;
-  margin-bottom: 2rem;
-  /* Animation */
-  /* transition: var(--transition);
-  animation: slideFromRight 2.5s ease-in-out; */
-}
-
-.banner-subheading {
-  transition: var(--transition);
-  animation: slideFromRight 2.5s ease-in-out;
+  margin-bottom: 1rem;
 }
 
 .banner-logo {
